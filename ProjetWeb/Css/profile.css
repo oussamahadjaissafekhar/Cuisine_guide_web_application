@@ -1,0 +1,61 @@
+body{
+    background: rgba(255, 155, 99, 0.2);
+}
+    .logIn{
+        width: 619px;
+        height: 650px;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .logIn img{
+        width: 100px;
+        height: 100px;
+        margin: 10px auto;
+        cursor: pointer;
+    }
+    .logIn h1{
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #000000;
+    } 
+    .row{
+        display: flex;
+        flex-direction: row;
+        margin: 10px auto;
+    }
+    .column{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .logIn input:not([type="submit"]){
+        margin: 20px 0;
+        width: 250px;
+        height: 20px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .logIn input[type="submit"]{
+        width: 364px;
+        height: 40px;
+        margin:20px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+    }

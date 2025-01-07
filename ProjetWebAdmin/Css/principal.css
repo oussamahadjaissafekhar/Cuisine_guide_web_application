@@ -1,0 +1,316 @@
+body{
+    background-color : rgb(219, 219, 219);
+    margin:0;
+}
+ul {
+    margin:20px 0;
+    list-style : none;
+    display : flex;
+    gap: 20px;
+}
+a{
+    text-decoration:none;
+    color : black;
+}
+li div{
+        padding:5px;
+}
+.menu li div:hover{
+    background-color:#FF9B63;
+    border:0.5px solid grey;
+}
+.menu{ 
+    display:flex;
+    align-items:center;
+        justify-content:center;
+    height :50px;
+    max-height:100px;
+    background-color:white;
+}
+.menuFooter{
+    display:flex;
+    align-items:center;
+    height :50px;
+    max-height:100px;
+    background-color:white;
+}
+table{
+    background-color:white;
+    border: 1px solid black;
+    margin: 30px auto;
+    border-collapse:collapse;
+}
+th {
+    border: 1px solid black;
+    padding:5px;
+    width:fit-content;
+}
+td{
+    border: 1px solid black;
+    padding:5px;
+    width:fit-content;
+    text-align: center;
+}
+.image{
+    width:50px;
+    height:50px;
+    border-radius:5px;
+}
+input[value='Accepter']{
+    background-color: rgb(0, 180, 0);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+input[value='Accepter']:hover{
+    background-color: rgb(0, 139, 0);
+}
+input[value='Refuser']{
+    background-color: rgb(247, 47, 47);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+input[value='Refuser']:hover{
+    background-color: rgb(150, 42, 42);
+}
+input[value='supprimer']{
+    background-color: rgb(219, 0, 0);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+input[value='supprimer']:hover{
+    background-color: rgb(139, 0, 0);
+}
+input[value='modifier']{
+    background-color: rgb(97, 102, 255);
+    color: white;
+    border: 0;
+    padding: 5px;
+}
+input[value='modifier']:hover{
+    background-color: rgb(7, 1, 123);
+}
+.recipe,.new,.parametre{
+width: 619px;
+height: fit-content;
+margin:20px auto 30px ;
+background: #FFFFFF;
+box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+padding:20px 50px;
+}
+    .row{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    }
+    .column{
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .recipe input:not([type="submit"],[type="checkbox"]){
+        margin: 20px 0;
+        width: 250px;
+        height: 20px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    select{
+        margin: 20px 0;
+        width: 300px;
+        height: 40px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+        #description{
+        border-radius: 10px;
+        height: 100px;
+        width: 500px;
+    }
+    .recipe input[value="Suivant"]{
+    width: 364px;
+    height: 40px;
+    margin: 15px auto;
+    font-size: 30px;
+    color: white;
+    background: #FF9B63;
+    border-radius: 20px;
+    border: 0;
+    }
+    .recipe input[value="Retour"]{
+        width: 364px;
+        height: 40px;
+        margin: 15px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+        }
+    .step{
+        width: 619px;
+        height: fit-content;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .step h1{
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #000000;
+    } 
+    .stepInput{
+        margin: 20px 0;
+        width: 550px;
+        height: 20px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .submit{
+        width: 364px;
+        height: 40px;
+        margin: 15px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+    }
+    .step table{
+        margin: 10px auto;
+        background-color: white;
+        width: 500px;
+        border: solid 1px black;
+    }
+    .step td {
+        border: 0.5px solid black;
+        width: fit-content;
+    }
+    td input[type='text']:not([class="ingredientInput"],[class="ingredientInputLarge"],[class="paramInput"]){
+        width: 400px;
+        height: 30px;
+    }
+    .ingredient td input[type='text']{
+        width: 50px;
+        height: 30px;
+        }
+    #select{
+     height: 100px;   
+    }
+    .logIn{
+        width: 619px;
+        height: 450px;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .logIn h1{
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #000000;
+    }
+    .logIn input:not([type ="submit"],[type="checkbox"]),.new input:not([type ="submit"],[type="checkbox"]){
+        margin: 20px 0;
+        width: 550px;
+        height: 20px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .logIn label{
+        font-size: 20px;
+        margin:0 20px;
+    }
+    .logIn div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    input.loginButton ,.new input[type ="submit"]{
+        width: 364px;
+        height: 40px;
+        margin: 40px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+    }
+
+    select[name='column']{
+        height: 30px;
+        font-size:10px;
+        margin:auto 40px
+    }
+    .new input[value='X'],.parametre input[value='X']{
+        height:30px;
+        width:20px;
+        padding:0;
+        margin:auto 99%;
+        cursor: pointer;
+    }
+    .saison{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .saisonItem{
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px; 
+        margin: 10px 10px;
+    }
+    .ingredientInput{
+        width: 20px;
+        text-align: center;
+    }
+    .ingredientInputLarge{
+        width: 150px;
+        text-align: center;
+    }
+    input[value="+ Ajouter une diapo"],input[value="modifier d'autre parametre"]{
+        margin: 20px 50px;
+        border-radius:5px;
+        background-color: white;
+    }
+    input[value="+ Ajouter une diapo"]:hover,input[value="modifier d'autre parametre"]:hover{
+        background-color: rgb(199, 190, 190);
+    }

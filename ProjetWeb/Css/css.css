@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    }
+        .header {
+            height: 180px;
+            width: 100%;
+        }
+            .headerTop{
+                height: 100px;
+                width: 100%;
+            }
+                .logo {
+                    position: absolute;
+                    left: 1%;
+                    top: 0.5%;
+                }
+                .contact {
+                    position: absolute;
+                    right: 2%;
+                    top: 3%;
+                    width: 250px;
+                }
+            .headerBottom {
+                display: flex;
+                flex-direction:row ;
+                align-items: center;
+                height: 80px;
+                width: 100%;
+                background-color: #FF9B63;
+            }
+                .menu {
+                    display: flex;  
+                    position: absolute;
+                    left: 2%;          
+                    gap: 1em;                      
+                    }
+                
+                    .menu li {            
+                        padding: 10px;
+                        margin: 0 5% 0 0;
+                        list-style: none;          
+                    }
+                    .menu li:hover {            
+                        border-bottom:2px white solid;         
+                    }
+                    .menu a {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 20px;
+                        white-space: nowrap;
+                    }
+                        
+                    #profilIcon{
+                        position: absolute;
+                        right: 4%;
+                        margin-left:10% ;
+                        height:8%;
+                        max-width: 8%;
+                        cursor: pointer;
+                    }
+        
+        #comptePopUp {
+            position: absolute;
+            right: 0.1%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 230px;
+            background-color: white;
+            border: 0.5px solid gray;
+            border-radius: 5px;
+            z-index: 2;
+        }    
+            #comptePopUp img {
+                width: 60px;
+                height: 60px;
+                border-radius: 30px;
+            }
+            #comptePopUp h2 {
+                text-align: center;
+                margin: 5px auto;
+            }
+            #comptePopUp h3{
+                margin: 5px 0 10px;
+            }
+            #comptePopUp input{
+                border: 0.5px;
+                width: 100px;
+                margin: 5px;
+            }     
+            #comptePopUp input:first-of-type{
+                background-color: #FF9B63;
+            } 
+    
+        .footer {
+            height: 80px;
+            width: 100%;
+            margin-top:20px ;
+        }
+            .menuFooter {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+            }
+                .menuFooter li {
+                    padding: 10px;
+                    margin: 0 4% 0 0;
+                    list-style: none;
+                }
+                .menuFooter a{
+                    text-decoration: none;
+                    color: black;
+                }
+            
+            
+    

@@ -1,0 +1,65 @@
+body{
+    background: rgba(255, 155, 99, 0.2);
+}
+    .logIn{
+        width: 619px;
+        height: 450px;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .logIn h1{
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: capitalize;
+
+        color: #000000;
+    }
+    .logIn input:not([type ="submit"]){
+        margin: 20px 0;
+        width: 550px;
+        height: 20px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .logIn label{
+        font-size: 20px;
+        margin:0 20px;
+    }
+    .logIn div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logIn div a{
+        text-decoration: none;
+        margin-right: 25px;
+        margin-top: 20px;
+    }
+    .logIn div a:first-child{
+        color: #FF9B63;
+    }
+    .logIn div a:nth-child(2){
+        color: red;
+    }
+    input.loginButton {
+        width: 364px;
+        height: 40px;
+        margin: 40px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+    }

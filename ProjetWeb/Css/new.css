@@ -1,0 +1,15 @@
+.new{
+    margin: 20px;
+}
+    .new h1{
+        font-size: 58px;
+    }
+    #newImage{
+        width: 100%;
+        height: 500px;
+    }
+    video{
+        margin: 20px 150px;
+        width: 80%;
+        height: 400px;
+    }

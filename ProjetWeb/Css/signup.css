@@ -1,0 +1,113 @@
+body{
+    background: rgba(255, 155, 99, 0.2);
+}
+    .singUp{
+        width: 619px;
+        height: 530px;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+    .singUp h1{
+        font-family: 'Merienda';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #000000;
+    }
+    .singUp input:not([type ="submit"]){
+        margin: 10px 0;
+        width: 550px;
+        height: 15px;
+        padding:10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .singUp select{
+        margin: 15px;
+        width: 550px;
+        height: 35px;
+        padding:5px 20px;
+        color: #696969;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .singUp input[type="file"]{
+        padding:0 50px;
+    }
+    .singUp div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+        .singUp div input:not([type ="submit"]){
+            margin: 15px;
+        }
+    .singUp div a{
+        margin-left: 20px;
+    }
+    .singUp div a:first-child{
+        color: #FF9B63;
+    }
+    .singUpButton {
+        width: 364px;
+        height: 40px;
+        margin:20px auto;
+        font-size: 30px;
+        color: white;
+        background: #FF9B63;
+        border-radius: 20px;
+        border: 0;
+    }
+    .singUp div:nth-child(6){
+        margin: 10px auto;
+        width: 550px;
+        height: 15px;
+        padding:10px 5px 10px 20px;
+        background: #FFFFFF;
+        border: 0;
+        box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+    .singUp label{
+        color: #696969;
+        font-size: 12px;
+        margin:0 20px;
+    }
+    label.label input[type="file"] {
+        position: absolute;
+        top: -1000px;
+      }
+      .label {
+        cursor: pointer;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        padding: 5px 15px;
+        margin: 5px;
+        background: #dddddd;
+        display: inline-block;
+      }
+      .label:hover {
+        background: #feb184;
+      }
+      .label:active {
+        background: #9fa1a0;
+      }
+      .label:invalid+span {
+        color: #000000;
+      }
+      .label:valid+span {
+        color: #ffffff;
+      }

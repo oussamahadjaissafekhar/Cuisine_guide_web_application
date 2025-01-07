@@ -1,0 +1,177 @@
+body{
+    background: rgba(255, 155, 99, 0.2);
+}
+    .recipeIdea{
+        width: 698px;
+        height: 550px;
+        margin:20px auto 30px ;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+    }
+        .recipeIdea h1{
+            font-family: 'Merienda';
+            margin: 20px 10px 2px;
+        }
+        .recipeIdea h2{
+            font-family: 'Montserrat';
+            margin: 30px auto;
+        }
+        .recipeIdea h3{
+            margin: 2px 50px;
+            color: #626262;
+            font-family: 'Didact Gothic';
+        }
+        .ingredientControlle {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin:0 20px;
+        }
+            .recipeIdea input[type='button']{
+                background-color: white;
+                color: #FF9B63;
+                font-size: 15px;
+                border: 0.5px solid #FF9B63;
+                cursor: pointer;
+                width: 200px;
+                height: 30px;
+            }
+            .recipeIdea input[type='button']:hover{
+                background-color: #FF9B63;
+                color: white;
+            }
+            .recipeIdea img{
+                cursor: pointer;
+                width: 44px;
+                height: 44px;
+            }
+        .ingredientTable {
+            margin: 30px auto 10px;
+            width: 670px;
+            height: 280px;
+            border: 0.5px solid black;
+            border-radius: 10px;
+            overflow-y: scroll;
+        }
+            .ingredientTable form{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                height: 60px;
+                padding: 0 20px;
+                border: 0px;
+                border-bottom: 0.5px solid #888888;
+            }
+            .ingredientTable img{
+                width: 30px;
+                height: 30px;
+            }
+            .ingredientTable h2{
+                margin-left: 50px;
+            }
+            .ingredientTable::-webkit-scrollbar {
+                width: 12px;
+            }
+                                
+            .ingredientTable::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+                border-radius: 40px;
+            }
+                                
+            .ingredientTable::-webkit-scrollbar-thumb {
+                border-radius: 40px;
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+            }
+        #rechercherButton{
+            width: 364px;
+            height: 40px;
+            margin:10px 150px;
+            font-size: 30px;
+            color: white;
+            background: #FF9B63;
+            border-radius: 20px;
+            border: 0;
+        }
+    .ingredientForm {
+        width: 698px;
+        height: fit-content;
+        position: absolute;
+        left: 359px;
+        top: 200px;
+        background: #FFFFFF;
+        box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        padding:0 50px;
+        z-index: 1;
+    }
+    .rechercheBar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 100%;
+    }
+        .rechercheBar label{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 50px;
+            width: 50%;
+            box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+            border-radius: 50px;
+            padding: 0 20px;
+        }
+        .rechercheBar input {
+            color: rgb(127, 127, 127);
+            border: none;
+            height: 40px;
+            width: 100%;
+        }
+        .rechercheBar img{
+            height: 35%;
+            width: 6%;
+            opacity: 0.6;
+            cursor: pointer;
+        }
+        .ingredients {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+            .ingredients div{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 25px;
+            }
+            .ingredients img{
+                display: block;
+                display: block;
+                width: 30px;
+                height: 30px;
+            }
+            .ingredients p {
+                margin-top: 15px;
+                display: inline;
+            }
+            .ingredients input[type="checkbox"]{
+                margin-top: 15px;
+                list-style: none;
+            }
+        .buttons input{
+            margin: 10px;
+            width: 150px;
+            height: 30px;
+            font-size: 20px;
+        }
+        

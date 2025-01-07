@@ -1,0 +1,93 @@
+.cadres {
+    width: 100%;
+    margin-top:50px ;
+}
+    .cadre {
+        width: 90%;
+        height: 500px;
+        margin: 20px auto;
+        border: 0.5px dashed #000000;
+        border-radius: 10px;
+    }
+        .cadre h1{
+            display: inline;
+            margin: 5px 20px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            font-size: 50px;
+            color: #000000;
+        }
+        #AllRecipes{
+            position: absolute;
+            right: 100px;
+            margin-top: 20px;
+            font-size: 20px;
+            color: #FF0404;
+        }
+        .cartesCadre{
+            display: flex;
+            flex-direction: row;
+            overflow: hidden;
+        }
+            .cartes{
+                margin:30px 0 30px;
+                height: 400px;
+                display: flex;
+                flex-direction: row;
+                overflow: hidden;
+                
+            }
+                .carte {
+                    margin:30px 45px 30px 0;
+                    width: 250px;
+                    height: 350px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.25);
+                    border-radius: 10px;
+                    translate: 0px;
+                }
+                    .carteImage{
+                        width: 250px;
+                        height: 170px;
+                        border-radius: 10px;
+                    }
+                    .carteTitle{
+                        font-size: 20px;
+                        margin-top: 3px;
+                        margin-bottom: 1px;
+                    }
+                    .carteTitle , .carteParagraphe {
+                        margin-left: 20px;
+                        margin-right: 20px;
+                    }
+                    
+                    #carteDescription {
+                        margin-top: 5px;
+                        margin-bottom:10px;
+                        height: 120px;
+                        overflow: hidden;
+                    }
+                    .carteBottom {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                        }
+                        .carteLink {
+                            color: #FF0404;
+                        }
+                        .cartesCadre .button {
+                            width: 50px;
+                            height: 70px;
+                            margin: 165px 20px;
+                        }
+                            .rating {
+                                display: flex;
+                                flex-direction: row;
+                            }
+                                .ratingStar {
+                                    width: 20px;
+                                    height: 20px;
+                                }
+                            

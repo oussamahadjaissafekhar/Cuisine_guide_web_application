@@ -1,0 +1,68 @@
+.recipe {
+    margin: 20px;
+}
+    .recipe h1{
+        font-size: 58px;
+    }
+
+        .recipeReaction{
+            display: flex;
+            justify-content: start;
+        }
+            .recipeReaction img{
+                width: 50px;
+                margin-left: 20px;
+                cursor: pointer;
+            }
+            .recipeReaction :first-child{
+                width: 40px;
+                height: 50px ;
+                cursor: pointer;
+            }
+    .recipe h2{
+        font-size: 35px;
+        color: #FF9B63;
+    }
+    .recipe label{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .ingredient{
+        display: flex;
+        flex-direction: row;
+    }
+    .ingredient p{
+        margin-right: 50px;
+    }
+
+    #save{
+        background: url('http://localhost/ProjetWeb/Images/Save.png') no-repeat;
+        cursor: pointer;
+        width: 50px;
+        height: 55px;
+        margin-right: 5px;
+        border: none;
+    }
+    #unsave{
+        background: url('http://localhost/ProjetWeb/Images/Unsave.png') no-repeat;
+        cursor: pointer;
+        width: 50px;
+        height: 55px;
+        margin-right: 5px;
+        border: none;
+    }
+    #like{
+        background: url('http://localhost/ProjetWeb/Images/Like.png') no-repeat;
+        cursor: pointer;
+        width: 60px;
+        height: 55px;
+        border: none;
+    }
+    #unlike{
+        background: url('http://localhost/ProjetWeb/Images/Unlike.png') no-repeat;
+        cursor: pointer;
+        width: 60px;
+        height: 55px;
+        border: none;
+    }
+    
